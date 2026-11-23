@@ -1,0 +1,7 @@
+# Netlify configuration for gulli.ai
+# The site is static HTML in the "site" folder, so there is no build step —
+# Netlify just publishes that folder.
+
+[build]
+  publish = "site"
+  command = ""
