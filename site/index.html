@@ -106,6 +106,12 @@
   .book p{color:#2d333d;margin:0 0 18px}
   .book .by{font-size:.9rem;color:var(--muted);margin-top:-6px;margin-bottom:14px}
   .book .xlation{font-size:.88rem;color:var(--accent-ink);font-weight:500;margin:0 0 16px}
+  .book .cn-edition{display:flex;gap:14px;align-items:center;background:var(--bg-soft);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:2px 0 18px;max-width:440px}
+  .book .cn-edition img{width:62px;height:auto;border-radius:4px;display:block;flex:none;border:1px solid var(--line)}
+  .book .cn-edition .cn-title{font-weight:600;font-size:.9rem;color:var(--ink)}
+  .book .cn-edition .cn-sub{font-size:.8rem;color:var(--muted);margin:3px 0 9px}
+  .book .cn-edition .btn{background:var(--ink);color:#fff;font-size:.82rem;padding:7px 14px;border-radius:999px}
+  .book .cn-edition .btn:hover{background:#000;text-decoration:none}
   .booklinks{display:flex;flex-wrap:wrap;gap:10px}
   .booklinks .btn{border:1px solid var(--line);color:var(--ink);background:#fff;padding:9px 16px}
   .booklinks .btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
@@ -229,7 +235,14 @@
         <h3>Agentic Design Patterns</h3>
         <div class="sub">A Hands-On Guide to Building Intelligent Systems</div>
         <p>A practical catalog of 21 proven agentic patterns — from prompt chaining and tool use to multi-agent collaboration and self-correction. Each chapter pairs a clear pattern overview and real-world use cases with runnable code in LangChain, CrewAI and Google's Agent Development Kit (ADK), giving developers a shared vocabulary for agent logic.</p>
-        <p class="xlation">🌐 Also available in Chinese — 《智能体设计模式》, <strong>Tsinghua University Press</strong> · <a href="https://product.dangdang.com/product.aspx?product_id=30047480" target="_blank" rel="noopener">Buy (Dangdang)</a> · <a href="https://search.jd.com/Search?keyword=9787302712435" target="_blank" rel="noopener">JD.com</a></p>
+        <div class="cn-edition">
+          <a href="https://www.taobao.com/list/item/MFhUQWtLTWR2b29la2V3MXFYV3JBUT09.htm?spm=a21wu.24122187/default.recommend-goods.3" target="_blank" rel="noopener"><img src="assets/agentic-design-patterns-cn.png" alt="Chinese edition cover — Agentic 智能体设计模式, Tsinghua University Press" /></a>
+          <div>
+            <div class="cn-title">🌐 Chinese edition · 《Agentic 智能体设计模式》</div>
+            <div class="cn-sub">Tsinghua University Press · 译 茹炳晟 &amp; 方佳瑶</div>
+            <a class="btn" href="https://www.taobao.com/list/item/MFhUQWtLTWR2b29la2V3MXFYV3JBUT09.htm?spm=a21wu.24122187/default.recommend-goods.3" target="_blank" rel="noopener">购买 · Buy on Taobao →</a>
+          </div>
+        </div>
         <div class="booklinks">
           <a class="btn primary" href="https://www.amazon.com/Agentic-Design-Patterns-Hands-Intelligent/dp/3032014018/" target="_blank" rel="noopener">View on Amazon →</a>
           <a class="btn" href="https://link.springer.com/book/10.1007/978-3-032-01402-3" target="_blank" rel="noopener">Springer</a>
